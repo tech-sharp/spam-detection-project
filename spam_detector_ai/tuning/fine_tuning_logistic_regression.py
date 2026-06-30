@@ -52,4 +52,4 @@ if __name__ == '__main__':
     logger.info("Outputting the evaluation metrics for Logistic Regression")
     print(confusion_matrix(y_test, y_pred_lr))
     print(classification_report(y_test, y_pred_lr))
-    print(accuracy_score(y_test, y_pred_lr))
+    print(accuracy_score(y_test, y_pred_lr))
