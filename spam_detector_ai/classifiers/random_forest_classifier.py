@@ -17,4 +17,4 @@ class RandomForestSpamClassifier(BaseClassifier):
         X_train_vectorized = self.vectoriser.fit_transform(X_train)
         X_train_res, y_train_res = self.smote.fit_resample(X_train_vectorized, y_train)
         self.classifier = RandomForestClassifier(n_estimators=100, random_state=0)
-        self.classifier.fit(X_train_res, y_train_res)
+        self.classifier.fit(X_train_res, y_train_res)

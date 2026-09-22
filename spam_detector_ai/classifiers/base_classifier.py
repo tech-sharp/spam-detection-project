@@ -26,4 +26,4 @@ class BaseClassifier(ABC):
 
     def load_model(self, model_path, vectoriser_path):
         self.classifier = load(model_path)
-        self.vectoriser = load(vectoriser_path)
+        self.vectoriser = load(vectoriser_path)
