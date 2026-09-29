@@ -17,4 +17,4 @@ if __name__ == "__main__":
     runner.run(suite)
 
     profiler.disable()
-    profiler.print_stats(sort='time')
+    profiler.print_stats(sort='time')
