@@ -49,4 +49,4 @@ class TestModel:
 
 if __name__ == '__main__':
     tester = TestModel()
-    tester.test()
+    tester.test()
