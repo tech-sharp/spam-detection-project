@@ -48,4 +48,4 @@ if __name__ == '__main__':
     logger.info("Outputting the evaluation metrics")
     print(confusion_matrix(y_test, y_pred))
     print(classification_report(y_test, y_pred))
-    print(accuracy_score(y_test, y_pred))
+    print(accuracy_score(y_test, y_pred))
